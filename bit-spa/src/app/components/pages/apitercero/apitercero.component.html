@@ -1,1 +1,18 @@
-<p>apitercero works!</p>
+<h2>Paises</h2>
+
+<section class="container">
+  <div class="row row-cols-1 row-cols-4 g-5 p-5 text-center">
+    @for (paises of pais; track $index){
+    <div class="card col" style="width: 18rem">
+      <img
+        src="{{ paises.flags.png }}"
+        class="card-img-top"
+        alt="{{ paises.name.common }}"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ paises.name.common }}</h5>
+      </div>
+    </div>
+    }
+  </div>
+</section>
