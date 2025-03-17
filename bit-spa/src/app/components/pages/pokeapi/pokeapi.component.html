@@ -1,1 +1,18 @@
-<p>pokeapi works!</p>
+<h2>Pokemons</h2>
+
+<section class="container">
+  <div class="row row-cols-1 row-cols-4 g-5 p-5 text-center">
+    @for (pokemon of pokemons; track $index){
+    <div class="card col" style="width: 18rem">
+      <img
+        src="{{ pokemon.image }}"
+        class="card-img-top"
+        alt="{{ pokemon.name }}"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ pokemon.name }}</h5>
+      </div>
+    </div>
+    }
+  </div>
+</section>
