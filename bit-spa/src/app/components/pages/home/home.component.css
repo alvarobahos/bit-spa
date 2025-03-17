@@ -1,0 +1,21 @@
+body {
+  background-color: aqua;
+}
+.style {
+  color: black;
+  text-align: center;
+  padding: 100px 20px;
+  background: url("https://static.vecteezy.com/system/resources/previews/007/464/242/large_2x/icon-programming-suitable-for-programming-symbol-color-mate-style-simple-design-editable-design-template-simple-symbol-illustration-vector.jpg")
+    center/cover no-repeat;
+  height: 300px; /* Altura del header */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.section {
+  padding: 40px 20px;
+}

@@ -1,0 +1,8 @@
+.impacto-titulo {
+  font-size: 50px;
+  color: #ff6f61; /* Color coral llamativo */
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,24 @@
+<h2 class="impacto-titulo">Equipo DW</h2>
+<section class="container">
+  <div class="row row-cols-1 row-cols-4 g-5 p-5 text-center">
+    @for (equipos of equipo; track $index){
+    <div class="card col" style="width: 18rem">
+      <img
+        src="{{ equipos.imagenpersona }}"
+        class="card-img-top"
+        alt="{{ equipos.nombrepersona }}"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ equipos.nombrepersona }}</h5>
+        <p class="card-text">Desarrolador Web</p>
+        <a
+          href="{{ equipos.enlacepersona }}"
+          class="btn btn-primary"
+          target="_blank"
+          >Git Hub</a
+        >
+      </div>
+    </div>
+    }
+  </div>
+</section>
